@@ -1,0 +1,14 @@
+{ "extensionName": "SpeakExtension",
+"extensionPort": 8080,
+"blockSpecs": [
+[" ", "Speak %s", "speak", ""],
+["w", "Speak %s and wait", "speakwait", ""],
+["r", "Gender", "speechgender"],
+["r", "Rate", "speechrate"],
+["r", "Volume", "speechvolume"],
+[" ", "Set Volume %n", "setvolume", "100"],
+[" ", "Change Volume by %n", "changevolume", "0"],
+[" ", "Set Rate %n", "setrate", "0"],
+[" ", "Change Rate by %n", "changerate", "0"]
+]
+}
